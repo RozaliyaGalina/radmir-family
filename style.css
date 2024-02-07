@@ -549,15 +549,9 @@ p {
     margin-right: 6px;
 }
 
-@media (max-width: 767px) {
-    /* .main-footer .footer-content ul li {
-        width: 100%;
-    }
-    .main-footer .footer-content ul li a {
-        width: 100%;
-    } */
-    .main-footer .footer-content ul li:not(:last-child) {
-        margin-right: 0;
+@media (max-width: 576px) {
+    .main-footer .footer-content ul li {
+        margin-right: 10px;
         margin-bottom: 10px;
     }
 }
